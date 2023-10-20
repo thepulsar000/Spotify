@@ -47,7 +47,7 @@ h4{
 }
 
 .greet-text p{
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 600;
     padding: 0.7em 1em;
 }
@@ -117,7 +117,6 @@ form button img{
     display: flex;
     gap: 20px;
     padding: 2em 1em 0;
-    font-size: 13px;
     & li{
     list-style: none;
     border: none;
@@ -243,8 +242,8 @@ form button img{
     display: flex;
     align-items: center;
     height: 30vh;
-    padding: 0 1em;
-    gap: 10px;
+    padding: 0.5em 1em;
+    gap: 20px;
     overflow-x: scroll;
 }
 .artists::-webkit-scrollbar{
@@ -252,7 +251,7 @@ form button img{
 }
 .artists .jump,
 .artist-card{
-    min-width: 180px;
+    min-width: 200px;
     height: 90%;
 }
 .artist-card{

@@ -52,7 +52,7 @@ export function SideNav() {
 
     e.target.style.backgroundColor = newColor[numb];
     wholeColor.style.setProperty("--green", newColor[numb]);
-    console.log(numb);
+    // console.log(numb);
 
     if (numb < newColor.length - 1) {
       numb++;
