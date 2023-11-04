@@ -29,7 +29,6 @@ function Greeting() {
         <Title time={hour} title="Vee" />
 
         <p>
-          <span className="grey">... </span>
           {greet_text}
           <span className="green"> -{artist}</span>
         </p>
